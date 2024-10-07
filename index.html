@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galaxy Sky Shooting</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="startScreen">
+        <h1>Galactic Shooter</h1>
+        <input type="text" id="playerName" placeholder="Enter your name" />
+        <button id="startGame">Start Game</button>
+    </div>
+    <div id="score">Last Score: 0</div>
+    <div id="gameArea" style="display: none;">
+        <div id="player"></div>
+    </div>
+
+    <div id="leaderboard" style="display: none;">
+        <h2>Leaderboard</h2>
+        <ul id="leaderboardList"></ul>
+        <button id="playAgainButton" class="animated-button">Play Again</button>
+    </div>
+    
+    
+    <script src="app.js"></script>
+</body>
+</html>
